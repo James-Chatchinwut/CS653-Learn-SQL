@@ -1,3 +1,11 @@
+# สมาชิกกลุ่ม
+1.Kasidit Intanoo 6409035109
+2.Yannawut Chatchinnawut 6409035174
+3.Patsarat Naiyajit 6409035281
+4.Teetach Koomkaimuk
+
+
+
 # Learn SQL
 If you haven't already make sure you watch [this video](https://youtu.be/p3qvj9hO_Bo) which will teach you all the basics of SQL in 60 minutes.
 
