@@ -35,4 +35,6 @@ JOIN albums ON bands.id = albums.band_id;
     -> ORDER BY Duration DESC
     -> LIMIT 1;
 
-
+7.UPDATE albums 
+    -> SET release_year = 1986
+    -> WHERE id = 4;
