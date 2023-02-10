@@ -38,3 +38,18 @@ JOIN albums ON bands.id = albums.band_id;
 7.UPDATE albums 
     -> SET release_year = 1986
     -> WHERE id = 4;
+
+8.mysql> INSERT INTO bands (name)
+    -> VALUES ('Safeplanet');
+Query OK, 1 row affected (0.02 sec)
+
+mysql> INSERT INTO albums (name, release_year, band_id)
+    -> VALUES ('Safeboys', 2019, 8);
+Query OK, 1 row affected (0.01 sec)
+
+9.mysql> DELETE FROM albums    -> WHERE id = 19;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> DELETE FROM bands
+    -> WHERE id = 8;
+Query OK, 1 row affected (0.01 sec)
