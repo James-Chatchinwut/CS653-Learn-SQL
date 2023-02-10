@@ -12,6 +12,7 @@
 UPDATE albums 
   SET release_year = 1986
   WHERE id = 4;
+SELECT * FROM albums ;
      
 INSERT INTO bands (name)
  VALUES ('Safeplanet');
@@ -19,7 +20,11 @@ INSERT INTO bands (name)
 INSERT INTO albums (name, release_year, band_id)
  VALUES ('Safeboys', 2019, 8);
 
+SELECT * FROM albums;
+
 DELETE FROM albums    
  WHERE id = 19;    
  DELETE FROM bands
  WHERE id = 8;
+ 
+SELECT * FROM albums;
