@@ -10,14 +10,15 @@ Answer
 );
 1.2 INSERT INTO songs(id,name,length,album_id) VALUES (1,'Arrival',1+(30/60),1); and more...
 
+2.SELECT DISTINCT bands.name AS 'Band Name'
+FROM bands
+JOIN albums ON bands.id = albums.band_id;
+
 3.SELECT * FROM albums
 WHERE release_year IS NOT NULL
 ORDER BY release_year
 LIMIT 1;
 
 
-4.SELECT DISTINCT bands.name AS 'Band Name'
-FROM bands
-JOIN albums ON bands.id = albums.band_id;
 
 
